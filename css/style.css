@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Kanit, sans-serif;
+    background-color: black;
+}
+
+footer {
+    background-color: black;
+    color: #FF9900;
+    text-align: center;
+    padding-top: 2.5em;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-size: 1.4rem;
+    align-items: center;
+    background-color: #ffa30b;
+}
+
+li {
+    padding: 1.5em;
+    
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: auto;
+    height: 7em;
+    border: solid #ffa30b 2px;
+}
+/* NAVBAR */
+
+
+
+/* ABOUT */
+.about-text {
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+    margin: 0 5em;
+}
+
+.about-header {
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.band {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact {
+    color: white;
+    text-align: center;
+    padding: 2em;
+    padding-bottom: 6em;
+}
+
+.contact-header {
+    padding: 0.5em;
+}
+
+.contact-text {
+    padding: 0.5em;
+    padding-bottom: 1em;
+    margin: 0 5em;
+}
+
+button {
+    padding: 1em;
+    background-color: #ff9900;
+    color: black;
+    border: none;
+    margin: 1em;
+}
+
+button:hover {
+    background-color: #89570d;
+    cursor: pointer;
+    color: white;
+}
+
+/* ABOUT */
+
+
+
+/* GALLERY */
+
+h2 {
+    color: white;
+    text-align: center;
+    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 2em;
+}
+
+.gallery {
+    padding-top: 2em;
+    padding-left: 3em;
+}
+
+.groups {
+    /* padding: 1.5em; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.caption {
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    padding-bottom: 2.5em;
+}
+
+/* .image {
+    margin: 1em;
+    width: 1vh;
+    height: 1vh;
+} */
+
+img {
+    margin: 0.8em;
+    width: 45vh;
+    height: 45vh;
+    border: solid white 2px;
+}
+/* GALLERY */
+
+
+
+/* SHOP/COMMS */
+.shop {
+    color: white;
+    text-align: center;
+    padding: 3em;
+}
+
+.comms {
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+    padding: 2em;
+}
+
+.shop-header {
+    padding: 0.5em;
+}
+
+.shop-text {
+    padding: 0.5em;
+    margin: 0 5em;
+}
+
+.comms-header {
+    padding: 0.5em;
+}
+
+.comms-text {
+    padding: 0.5em;
+    margin: 0 5em;
+}
+/* SHOP/COMMS */
+
